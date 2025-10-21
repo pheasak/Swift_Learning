@@ -36,7 +36,7 @@ struct Settings: View {
                                     isDetailActive = true
                                 }
                                 .navigationDestination(isPresented: $isDetailActive) {
-                                    ContentView()
+                                    DetailView()
                                 }
                          
                         
